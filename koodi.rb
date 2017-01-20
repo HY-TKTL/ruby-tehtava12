@@ -8,4 +8,3 @@ def luokittelu(t)
      summa: t.inject(0){|s,x| s+x}}
 end
 
-luokittelu([1,2,3, -1, 4 ,2 , 6, 7, 8, 8,88,8, 0, 9 ,3 ])
